@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.35) url('../img/bg1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    background-color: grey;
+    font-family: 'Oswald', sans-serif;
+    height: 110px;
+    color: black;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    /* font-family: 'Dancing Script', cursive; */
+   
+    font-family: 'Quintessential', cursive;
+    font-size: 32px;
+}
+
+/* h5 {
+    font-family: 'Lobster', cursive;
+    padding: 30px;
+} */
+.l1{
+    font-family: 'Fredericka the Great', cursive;
+}
+strong{
+    color: lightpink;
+}
+span{
+    color:rgb(171, 241, 60);
+    font-weight: bolder;
+}
+.d1{
+    color: #d5bcf4;
+}
+.d2{color: rgba(119, 113, 113, 0.781);}
